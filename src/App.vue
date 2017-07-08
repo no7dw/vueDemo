@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+  <router-view></router-view>
   {{ message }}
   </div>
 </template>
@@ -7,11 +8,7 @@
 <script>
 export default {
   name: 'app',
-  data () {
-    return {
-      message: 'AWelcome to Your App'
-    }
-  }
+
 }
 </script>
 
