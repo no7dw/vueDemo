@@ -8,7 +8,7 @@
 <script>
 export default {
   name: 'app',
-
+  message: 'Hey It'
 }
 </script>
 
