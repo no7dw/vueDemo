@@ -7,8 +7,13 @@
 
 <script>
 export default {
-  name: 'app',
-  message: 'Hey It'
+//  name: 'app',
+  data() {
+    return {
+      message: 'Hey It'
+    }
+  }
+
 }
 </script>
 
